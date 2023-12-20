@@ -7,6 +7,10 @@ module.exports = {
 		'plugin:svelte/recommended',
 		'prettier'
 	],
+	"rules": {
+		"semi": "never",
+		"@typescript-eslint/semi": "error"
+	},
 	parser: '@typescript-eslint/parser',
 	plugins: ['@typescript-eslint'],
 	parserOptions: {
