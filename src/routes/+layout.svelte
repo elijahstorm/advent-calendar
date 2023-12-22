@@ -184,7 +184,9 @@
 	</div>
 </nav>
 
-<div class="h-screen bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 antialiased">
+<div
+	class="h-full min-h-screen bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 antialiased"
+>
 	<div class="container mx-auto py-28">
 		<slot />
 	</div>
